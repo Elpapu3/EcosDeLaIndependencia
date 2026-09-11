@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersonajeSecundario.cs" />
     <Compile Include="Juego.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,8 +62,10 @@
       <DependentUpon>Menu.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Obstaculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TiposObstaculos.cs" />
     <EmbeddedResource Include="Juego.resx">
       <DependentUpon>Juego.cs</DependentUpon>
     </EmbeddedResource>

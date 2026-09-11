@@ -13,8 +13,8 @@ namespace EcosDeLaIndependencia
 
 
         public Jugador() {
-            Y = 100;
-            X = 100;
+            Y = 50;
+            X = 50;
         }
 
         public void Mover(int deltaX, int deltaY)
